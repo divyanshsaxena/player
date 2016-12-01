@@ -95,7 +95,7 @@ else {
 }
 player.addEventListener("play", function () {
 
-setTimeout(function(){
+
 var i;
 
   for(i=0;i<=k;i++)
@@ -109,5 +109,5 @@ var i;
     setTimeout(function(x){return function() { child[x*3+2].style.backgroundColor = "#FFFFFF";};}(i),(mydata[i*3+2].End*1000)/speed);
     setTimeout(function(x){return function() { newElement[x].hidden = true;};}(i),(mydata[i*3+2].End*1000)/speed);
   }
-},del);
+}
 });
