@@ -19,11 +19,11 @@ body {
 }
 
 .passage-audio {
-    height: 2em;
+    height: 10em;
 }
 #passage-audio {
     width: 100%;
-    max-height: 5em;
+    max-height: 10em;
 }
 
 .section-heading {
