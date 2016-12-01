@@ -1,0 +1,214 @@
+//alert(words.length);
+//alert(l);
+//alert(sub[122]);
+//var daap = [];
+//daap.length
+//
+/*
+for(i=0;i<l;i++){
+  child[i] = document.createElement("SPAN");
+  child[i].id = "highlight"+i;
+  child[i].innerHTML = words[i]+" ";
+  ids[i] = child[i].id;
+
+if(i%3==0)
+  {
+    if(i==0)
+    {
+      x = 0;
+    }
+    else
+    {
+      x = i/3;
+    }
+  }
+  else if(i%3==1)
+  {
+    x = (i-1)/3;
+  }
+  else if(i%3==2)
+  {
+    x = (i-2)/3;
+  }
+  else
+  {
+    x = -1;
+  }
+
+//document.getElementById(sub[x]).appendChild(child[i]);
+
+
+}
+*/
+//alert(ids[239]);
+//alert(child[209].innerHTML);
+//alert(x);
+
+//var d = sub[x];
+
+//document.getElementById(sub[x]).appendChild(newElement);
+
+//alert(document.getElementById("subtitle43").childNodes);
+
+
+//var "x"+i = document.createElement("SPAN");
+//x[i].setAttribute("id", "highlight"+i);
+
+//alert("x"+1);
+
+//alert("highlight"+1);
+
+//var "x"+i = document.createElement("SPAN");
+
+/*
+  document.getElementById("highlight0").innerHTML = mydata[i].Word;
+  document.getElementById("highlight1").innerHTML = mydata[i+1].Word;
+  document.getElementById("highlight2").innerHTML = mydata[i+2].Word;
+*/
+/*
+i=0;
+  document.getElementById(sub[i].toString()).hidden = false;
+
+
+  setTimeout(function(){document.getElementById(ids[i].toString()).style.backgroundColor = "#FFFF00";},(mydata[i].Begin*1000)/speed);
+  setTimeout(function(){document.getElementById(ids[i].toString()).style.backgroundColor = "#FFFFFF";},(mydata[i].End*1000)/speed);
+  setTimeout(function(){document.getElementById(ids[i+1].toString()).style.backgroundColor = "#FFFF00";},(mydata[i+1].Begin*1000)/speed);
+  setTimeout(function(){document.getElementById(ids[i+1].toString()).style.backgroundColor = "#FFFFFF";},(mydata[i+1].End*1000)/speed);
+  setTimeout(function(){document.getElementById(ids[i+2].toString()).style.backgroundColor = "#FFFF00";},(mydata[i+2].Begin*1000)/speed);
+  setTimeout(function(){document.getElementById(ids[i+2].toString()).style.backgroundColor = "#FFFFFF";},(mydata[i+2].End*1000)/speed);
+
+setTimeout(function(){document.querySelector(".subtitles").hidden = true;}, (mydata[i+2].End*1000)/speed);
+
+  setTimeout(function(){document.getElementById(ids[i].toString()).hidden = true;},(mydata[i+2].End*1000)/speed);
+  setTimeout(function(){document.getElementById(ids[i+1].toString()).hidden = true;},(mydata[i+2].End*1000)/speed);
+  setTimeout(function(){document.getElementById(ids[i+2].toString()).hidden = true;},(mydata[i+2].End*1000)/speed);
+
+  */
+
+
+ /*
+alert(ids[((i+1)*3)-3]);
+alert(sub[32])
+//alert(ids[23]);
+for(i=0; i<m;i++)
+{
+  x = ids[((i+1)*3)-3].toString();
+  y = ids[((i+1)*3)-2].toString();
+  z = ids[((i+1)*3)-1].toString();
+
+  document.getElementById(sub[i].toString()).appendChild(document.getElementById(x));
+  document.getElementById(sub[i].toString()).appendChild(document.getElementById(y));
+  document.getElementById(sub[i].toString()).appendChild(document.getElementById(z));
+  document.getElementById(sub[i].toString()).hidden = true;
+}
+
+alert(x);
+*/
+
+
+/*
+var child = document.createElement("SPAN");
+
+for(i=0;i<m;i++)
+{
+  newElement[i] = document.createElement("P");
+  newElement[i].id = "subtitle"+i;
+  sub[i] = newElement[i].id;
+  var c = document.createElement("SPAN");
+  for (var e=0;e<3;e++)
+    {
+    child = c.cloneNode(true);
+    n=[(i+1)*3]-(3-e);
+    child.id = "highlight"+n;
+    child.innerHTML = words[n]+" ";
+    //document.newElement[i].appendChild(child);
+    }
+}
+*/
+
+
+
+
+//for(i=0;i<k;i=i+2){
+//newElement[i].hidden = false;
+/*
+i=0;
+  setTimeout(function(){newElement[i].hidden = false;},(mydata[i].Begin*1000)/speed);
+  setTimeout(function(){child[i].style.backgroundColor = "#FFFF00";},(mydata[i].Begin*1000)/speed);
+  setTimeout(function(){child[i].style.backgroundColor = "#FFFFFF";},(mydata[i].End*1000)/speed);
+  setTimeout(function(){child[i+1].style.backgroundColor = "#FFFF00";},(mydata[i+1].Begin*1000)/speed);
+  setTimeout(function(){child[i+1].style.backgroundColor = "#FFFFFF";},(mydata[i+1].End*1000)/speed);
+  setTimeout(function(){child[i+2].style.backgroundColor = "#FFFF00";},(mydata[i+2].Begin*1000)/speed);
+  setTimeout(function(){child[i+2].style.backgroundColor = "#FFFFFF";},(mydata[i+2].End*1000)/speed);
+  //setTimeout(function(){newElement[i].setAttribute("hidden",true);},(mydata[i+2].End*1000)/speed);
+  setTimeout(function(){newElement[i].hidden = true;},(mydata[i+2].End*1000)/speed);
+
+
+j=3;
+  setTimeout(function(){newElement[1].hidden = false;},(mydata[j].Begin*1000)/speed);
+  setTimeout(function(){child[j].style.backgroundColor = "#FFFF00";},(mydata[j].Begin*1000)/speed);
+  setTimeout(function(){child[j].style.backgroundColor = "#FFFFFF";},(mydata[j].End*1000)/speed);
+  setTimeout(function(){child[j+1].style.backgroundColor = "#FFFF00";},(mydata[j+1].Begin*1000)/speed);
+  setTimeout(function(){child[j+1].style.backgroundColor = "#FFFFFF";},(mydata[j+1].End*1000)/speed);
+  setTimeout(function(){child[j+2].style.backgroundColor = "#FFFF00";},(mydata[j+2].Begin*1000)/speed);
+  setTimeout(function(){child[j+2].style.backgroundColor = "#FFFFFF";},(mydata[j+2].End*1000)/speed);
+  //setTimeout(function(){newElement[j].setAttribute("hidden",true);},(mydata[j+2].End*1000)/speed);
+  setTimeout(function(){newElement[1].hidden = true;},(mydata[j+2].End*1000)/speed);
+
+k=6;
+  setTimeout(function(){newElement[2].hidden = false;},(mydata[k].Begin*1000)/speed);
+  setTimeout(function(){child[k].style.backgroundColor = "#FFFF00";},(mydata[k].Begin*1000)/speed);
+  setTimeout(function(){child[k].style.backgroundColor = "#FFFFFF";},(mydata[k].End*1000)/speed);
+  setTimeout(function(){child[k+1].style.backgroundColor = "#FFFF00";},(mydata[k+1].Begin*1000)/speed);
+  setTimeout(function(){child[k+1].style.backgroundColor = "#FFFFFF";},(mydata[k+1].End*1000)/speed);
+  setTimeout(function(){child[k+2].style.backgroundColor = "#FFFF00";},(mydata[k+2].Begin*1000)/speed);
+  setTimeout(function(){child[k+2].style.backgroundColor = "#FFFFFF";},(mydata[k+2].End*1000)/speed);
+  //setTimeout(function(){newElement[k].setAttribute("hidden",true);},(mydata[k+2].End*1000)/speed);
+  setTimeout(function(){newElement[2].hidden = true;},(mydata[k+2].End*1000)/speed);
+
+*/
+//document.write.innerHTML('Hi!');
+
+//i=3;
+
+
+
+/*
+for(i=0;i<k;i++)
+{
+  setTimeout(function(){newElement[i].hidden = false;},(mydata[i*3].Begin*1000)/speed);
+  setTimeout(function(){child[i*3].style.backgroundColor = "#FFFF00";},(mydata[i*3].Begin*1000)/speed);
+  setTimeout(function(){child[i*3].style.backgroundColor = "#FFFFFF";},(mydata[i*3].End*1000)/speed);
+  setTimeout(function(){child[i*3+1].style.backgroundColor = "#FFFF00";},(mydata[i*3+1].Begin*1000)/speed);
+  setTimeout(function(){child[i*3+1].style.backgroundColor = "#FFFFFF";},(mydata[i*3+1].End*1000)/speed);
+  setTimeout(function(){child[i*3+2].style.backgroundColor = "#FFFF00";},(mydata[i*3+2].Begin*1000)/speed);
+  setTimeout(function(){child[i*3+2].style.backgroundColor = "#FFFFFF";},(mydata[i*3+2].End*1000)/speed);
+  setTimeout(function(){newElement[i].hidden = true;}, (mydata[i*3+2].End*1000)/speed);
+}
+*/
+
+
+//}
+/*
+var foo = [];
+
+for (var k = 0; k <= l; k++) {
+   foo.push(k*3);
+}
+*/
+//alert(foo.length);
+//alert(foo[foo.length-1]);
+
+
+
+//alert(m);
+
+//document.newElement[i].appendChild(child.cloneNode());
+
+//alert(l);
+
+//
+
+
+//alert(newElement.length);
+//alert(ids[213]);
