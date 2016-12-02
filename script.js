@@ -82,22 +82,6 @@ var k = (l-3)/3;
 player.addEventListener("play", function () {
 
 var i;
-//setTimeout(function(x){return function() { alert(player.currentTime);};}(),(1000));
-//alert(player.currentTime);
-/*
-  for(i=0;i<=k;i++)
-  {
-    setTimeout(function(x){return function() { newElement[x].hidden = false;};}(i),(mydata[i*3].Begin*1000)/speed);
-    setTimeout(function(x){return function() { child[x*3].style.backgroundColor = "#FFFF00";};}(i),(mydata[i*3].Begin*1000)/speed);
-    setTimeout(function(x){return function() { child[x*3].style.backgroundColor = "#FFFFFF";};}(i),(mydata[i*3].End*1000)/speed);
-    setTimeout(function(x){return function() { child[x*3+1].style.backgroundColor = "#FFFF00";};}(i),(mydata[i*3+1].Begin*1000)/speed);
-    setTimeout(function(x){return function() { child[x*3+1].style.backgroundColor = "#FFFFFF";};}(i),(mydata[i*3+1].End*1000)/speed);
-    setTimeout(function(x){return function() { child[x*3+2].style.backgroundColor = "#FFFF00";};}(i),(mydata[i*3+2].Begin*1000)/speed);
-    setTimeout(function(x){return function() { child[x*3+2].style.backgroundColor = "#FFFFFF";};}(i),(mydata[i*3+2].End*1000)/speed);
-    setTimeout(function(x){return function() { newElement[x].hidden = true;};}(i),(mydata[i*3+2].End*1000)/speed);
-  }
-*/
-
 
 setTimeout(function(x){return function() { sync();};}(),(70));
 
